@@ -1,7 +1,8 @@
 # 1. Setting up a Python Project
 In this seminar, we will cover the basics of setting up a Python project.
 
-In the `solution` directory, you will find the final project structure that we will create in this seminar.
+> [!TIP]
+> In the `solution` directory, you will find the final project structure that we will create in this seminar.
 
 ## Installing Python
 To get started with Python, you will need to install it on your computer. 
