@@ -12,4 +12,8 @@ The class is made up of five seminars, covering the following topics:
 - Setting up a Python Project
 - Polars: data access and processing
 - Advanced Polars: lazy mode, streaming, and interoperability
+- Streamlit: building interactive web apps
 - Time series analysis and forecasting with Darts
+
+## Links
+- Fist seminar: [Setting up a Python Project](1%20-%20Setting%20up%20a%20Python%20Project/README.md)
