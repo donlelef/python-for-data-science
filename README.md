@@ -16,4 +16,5 @@ The class is made up of five seminars, covering the following topics:
 - Time series analysis and forecasting with Darts
 
 ## Links
-- Fist seminar: [Setting up a Python Project](1%20-%20Setting%20up%20a%20Python%20Project/README.md)
+1. [Setting up a Python Project](1%20-%20Setting%20up%20a%20Python%20Project/README.md)
+2. [Polars: data access and processing](2%20-%20Polars/README.md)
