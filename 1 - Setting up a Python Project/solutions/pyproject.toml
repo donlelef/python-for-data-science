@@ -1,0 +1,14 @@
+[project]
+name = "power-load-pipeline"
+version = "0.1.0"
+description = "Read, transform and store power load data"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "polars>=1.9.0",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.3.3",
+]
