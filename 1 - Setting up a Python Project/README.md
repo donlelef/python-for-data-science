@@ -5,9 +5,9 @@ In this seminar, we will cover the basics of setting up a Python project.
 > In the `solution` directory, you will find the final project structure that we will create in this seminar.
 
 ## Installing Python
-To get started with Python, you will need to install it on your computer. 
+To get started with Python, you will need to install it on your computer.
 
-> [!NOTE]  
+> [!NOTE]
 > We'll write this tutorial assuming you're running a Windows machine, but the steps are similar for Mac and Linux.
 
 1. Install `uv` from Astral: it is an open-source Python package and project manager. We'll use it to install different versions of Python and manage our project dependencies.
@@ -15,6 +15,12 @@ To get started with Python, you will need to install it on your computer.
     powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
     ```
     You may want to add the autocompletion feature to your shell. To do so, check the official documentation [here](https://docs.astral.sh/uv/getting-started/installation/).
+
+  To check whether `uv` was installed correctly, run:
+    ```shell
+    uv --version
+    ```
+
 2. Install Python 3.13 using `uv`:
     ```shell
     uv python install 3.13
@@ -30,7 +36,7 @@ uv run python
 ```
 Then, type `print("Hello, World!")` and press Enter. You should see the output `Hello, World!`.
 
-> [!NOTE]  
+> [!NOTE]
 > In a Windows system, just typing `python` will default to the system app alias, and will not use the `uv`-managed Python installations.
 
 ## Setting up a project
@@ -53,7 +59,7 @@ To create a virtual environment, run the following command:
 ```shell
 uv venv
 ```
-This command will create a new directory called `.venv` in your project directory. 
+This command will create a new directory called `.venv` in your project directory.
 This directory will contain the Python installation and the packages you install in your project.
 
 ## Creating the project structure
